@@ -15,6 +15,7 @@ export default function Todo(props) {
       }
       const dragItem = item.index;
       const hoverItem = props.index;
+      console.log(dragItem, hoverItem);
       if (dragItem === hoverItem) {
         return;
       }
